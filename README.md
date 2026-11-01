@@ -1,30 +1,18 @@
-# Devlog #1: Refactoring the Core Architecture & Adding Reverse Stoichiometry
+# LabCalc Elite Suite v1.0
 
-Hello💖 This is my first devlog 
+LabCalc Elite Suite is a high-precision chemical calculator and stoichiometry tool built with Flutter.
 
-# What is this app ?
-Let’s face it: chemistry is beautiful, but stoichiometry math? Absolute torture.(At least for me 🙃). One misplaced decimal point, and you might got the calculation result to 120% more after distillation than you original started with.
+## Features
+* **Molar Mass & Stoichiometry Engines:** Instant calculations for molar mass, reaction yield matrix, and bottleneck detection.
+* **Dual Theme System:** Built-in Light and Dark mode toggles powered by persistent preferences (`shared_preferences`).
+* **Cross-Platform:** Built with Flutter for Web and Desktop.
 
-LabCalc is a app designed to be the ultimate companion for chemistry students Instead of squinting at periodic tables and punching numbers into a clunky calculator, LabCalc lets you:
-1. Instantly crunch Molar Masses with an auto-capitalizing smart input (no more shift-key gymnastics!).
-2. Map out complete Yield Matrices to immediately identify the bottleneck (limiting reactant) in a reaction.
-3. Execute Target Prep to figure out exactly how much starting material you need to get a specific amount of product.
+## License
+Distributed under the GNU General Public License v3.0 (GPLv3).
 
-It’s fast, it’s gorgeous, and it’s built to make laboratory math painless.
+## AI Assistance Declaration
+This project was developed with the assistance of AI tools GitHub Copilot for code refactoring and troubleshooting during development. 
 
-# My goals for this session:
-1. Split the giant code file into clean, modular pages.
-2. Build the UI for the new Target Prep feature.
-
-# What I alr did:
-1. Adding new features like mass calculation 
-2. Upgrade the user interface
-
-# Features I plan to add in the future
-1. Balance Equation
-2. A page to save history calculation
-
-# Devlog 2 
-# What did I did this session?
-I add some compund in the code so it automatcally show when typing
-
+**Core Human Contributions:**
+* Project architecture, data flow design, and stoichiometry calculation logic.
+* UI/UX palette design, dual-theme implementation (`AppColors`), and local storage integration (`shared_preferences`).
