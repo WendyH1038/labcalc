@@ -11,7 +11,7 @@ LabCalc Elite Suite is a high-precision chemical calculator and stoichiometry to
 Distributed under the GNU General Public License v3.0 (GPLv3).
 
 ## AI Assistance Declaration
-This project was developed with the assistance of AI tools GitHub Copilot for code refactoring and troubleshooting during development. 
+This project was developed with the assistance of GitHub Copilot for code refactoring and troubleshooting during development. 
 
 **Core Human Contributions:**
 * Project architecture, data flow design, and stoichiometry calculation logic.
