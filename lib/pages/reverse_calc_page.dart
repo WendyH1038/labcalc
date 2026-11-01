@@ -3,7 +3,6 @@ import '../utils/chemistry_utils.dart';
 import '../utils/history_manager.dart';
 
 class ReverseCalcPage extends StatefulWidget {
-  // Fixed: Converted to super parameter
   const ReverseCalcPage({super.key});
 
   @override
@@ -61,7 +60,7 @@ class _ReverseCalcPageState extends State<ReverseCalcPage> {
         return;
       }
 
-      // 2. The Reverse Stoichiometry Math
+      // 2. Reverse Stoichiometry Math
       // target grams C -> moles C
       double molesC = targetGramsC / mmC;
 
@@ -120,7 +119,7 @@ class _ReverseCalcPageState extends State<ReverseCalcPage> {
             ),
             const Divider(height: 32),
 
-            // UI inputs for coefficients & formulas (similar to forward layout but optimized for space)
+            // UI inputs for coefficients & formulas
             Row(
               children: [
                 Expanded(

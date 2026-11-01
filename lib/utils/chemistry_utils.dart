@@ -1,7 +1,6 @@
 import '../compound_data.dart';
 
 class ChemistryUtils {
-  // Advanced dynamic parser that handles nested parentheses like Ca(OH)2 or Fe2(SO4)3
   static double calculateMolarMass(String formula) {
     if (formula.isEmpty) return 0.0;
 
@@ -13,7 +12,6 @@ class ChemistryUtils {
         String char = formula[i];
 
         if (char == '(') {
-          // Push a new context layer onto our stack
           massStack.add(0.0);
           i++;
         } else if (char == ')') {
@@ -25,8 +23,6 @@ class ChemistryUtils {
             i++;
           }
           int multiplier = multiplierStr.isEmpty ? 1 : int.parse(multiplierStr);
-
-          // Pop the top layer mass, multiply it, and add it to the previous layer
           if (massStack.length > 1) {
             double poppedMass = massStack.removeLast();
             massStack[massStack.length - 1] += poppedMass * multiplier;
@@ -53,7 +49,7 @@ class ChemistryUtils {
             massStack[massStack.length - 1] += atomicWeights[element]! * count;
           }
         } else {
-          i++; // Skip invalid characters safely
+          i++; // Skip invalid characters
         }
       }
 

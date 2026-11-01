@@ -114,7 +114,7 @@ final Map<String, double> molarMasses = {
   'NH4HCO3': 79.06,
 };
 
-// Periodic Table Data for the Parser
+// Periodic Table Data
 final Map<String, double> atomicWeights = {
   'H': 1.008,
   'He': 4.0026,

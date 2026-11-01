@@ -14,8 +14,6 @@ class StoichResult {
   });
 }
 
-// REMOVED: the old getMass function (it was "dumb" and couldn't handle brackets)
-
 StoichResult calculateStoichiometry({
   required String formulaA,
   required double gramsA,
@@ -23,7 +21,7 @@ StoichResult calculateStoichiometry({
   required String formulaB,
   required int coeffB,
 }) {
-  // Step A: Get Molar Masses using our SMART utility
+  // Step A: Get MR by the stored file
   double mmA = ChemistryUtils.calculateMolarMass(formulaA);
   double mmB = ChemistryUtils.calculateMolarMass(formulaB);
 

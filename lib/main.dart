@@ -53,7 +53,7 @@ class _LabCalcAppState extends State<LabCalcApp> {
       debugShowCheckedModeBanner: false,
       themeMode: _themeMode,
 
-      // --- LIGHT THEME DEFINITION (#CBCBC0 Palette Inspired) ---
+      // LIGHT THEME
       theme: ThemeData(
         brightness: Brightness.light,
         scaffoldBackgroundColor: const Color(
@@ -72,7 +72,7 @@ class _LabCalcAppState extends State<LabCalcApp> {
         cardColor: const Color(0xFFEBEBE5),
       ),
 
-      // --- DARK THEME DEFINITION ---
+      // DARK THEME DEFINITION
       darkTheme: ThemeData(
         brightness: Brightness.dark,
         scaffoldBackgroundColor: const Color(0xFF121212),
