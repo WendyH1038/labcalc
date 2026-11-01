@@ -4,7 +4,7 @@ LabCalc Elite Suite is a high-precision chemical calculator and stoichiometry to
 
 ## Features
 * **Molar Mass & Stoichiometry Engines:** Instant calculations for molar mass, reaction yield matrix, and bottleneck detection.
-* **Dual Theme System:** Built-in Light and Dark mode toggles powered by persistent preferences (`shared_preferences`).
+* **Light/Dark Theme:** Built-in Light and Dark mode toggles powered by persistent preferences (`shared_preferences`).
 * **Cross-Platform:** Built with Flutter for Web and Desktop.
 
 ## License
